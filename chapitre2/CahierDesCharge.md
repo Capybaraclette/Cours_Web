@@ -62,18 +62,20 @@ Le projet consiste en la réalisation d’un site web personnel servant de portf
 
 ### Contraintes
 - Respect des normes de sécurité informatique.
-- Conformité au Système d’Information et d’Organisation (SIO) défini.
+- Optimisation du référencement naturel (SEO) pour améliorer la visibilité du site sur les moteurs de recherche.
 - Le site doit être entièrement responsive et optimisé pour différents types d’écrans (ordinateurs, tablettes, smartphones).
-- Mise en place d’une charte graphique définissant les couleurs, typographies et éléments visuels pour assurer une cohérence esthétique et une identité visuelle forte.
 
-### Stack Technique (suggestion)
-- **Front-end** : HTML, CSS (Tailwind ou Bootstrap), JavaScript (React, Vue.js, ou autre framework moderne).
+## 6. Charte Graphique
+- **Couleurs** : Palette cohérente et moderne reflétant le professionnalisme du développeur.
+- **Typographies** : Utilisation de polices lisibles et adaptées au web.
+- **Éléments visuels** : Design épuré et structuré pour une navigation fluide.
+- **Logo et Identité** : Si applicable, intégration d’un logo personnel ou d’une identité visuelle forte.
+
+## 7. Stack Technique
+- **Front-end** : HTML5, CSS3, JavaScript, et utilisation des balises sémantiques.
 - **Back-end** (si nécessaire) : Node.js, Express, ou autre technologie appropriée.
 - **Base de données** (si nécessaire) : Firebase, MongoDB, PostgreSQL.
 - **Hébergement** : Vercel, Netlify, ou serveur dédié selon les besoins.
 
 ---
-
-### Conclusion
-Ce cahier des charges définit les bases du projet et servira de guide pour le développement du site portfolio. L’objectif est d’avoir une plateforme moderne, efficace et conforme aux attentes des utilisateurs finaux tout en respectant les exigences légales et techniques.
 
