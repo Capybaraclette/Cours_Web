@@ -1,0 +1,26 @@
+.img-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+body {
+    background-color: #1a293a;
+}
+.navbar {
+    background-color: #1a293a;
+}
+.form-container {
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+header{
+    background-color: #171d25;
+}
+main{
+    background-color: #1a293a;
+}
+footer {
+    background: #1a293a;
+    color: white;
+}
