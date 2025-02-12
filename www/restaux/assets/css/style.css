@@ -1,17 +1,25 @@
 header{
     background-color: #171d25;
+    color: #FFB400;
 }
+
 footer{
     background-color: #171d25;
     text-align: center;
+    color: #FFB400;
 }
-
+body {
+    background-color:   #F5F5F5;
+    color: #FFB400;
+}
 #logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
+#fontcolor{
+    color:#FFB400;
+}
 .logo img{
     max-width: 100px;
     max-height: 100px;
@@ -19,6 +27,6 @@ footer{
     width: auto;
 }
 
-#bg-dark {
+#bgfooter {
     background-color: #171d25;
 }
