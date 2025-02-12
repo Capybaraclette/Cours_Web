@@ -1,0 +1,24 @@
+header{
+    background-color: #171d25;
+}
+footer{
+    background-color: #171d25;
+    text-align: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+}
+
+#bg-dark {
+    background-color: #171d25;
+}
