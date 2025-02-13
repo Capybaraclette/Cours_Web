@@ -13,8 +13,8 @@
             <div class="container">
                 <div class="logo">
                     <img src="assets/img/logo.png" alt="logo" >
+                    <a>Capybar</a>
                 </div>
-                <a>Capybars</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,40 +34,71 @@
             </div>
         </nav>
     </header>
-    
-    <section class="banner">
-        <div class="container text-center">
-            <h2 class="mt-3">Une expérience culinaire inoubliable</h2>
-        </div>
-    </section>
-    
+        
     <section class="about py-5">
         <div class="container text-center">
             <h2>À propos de nous</h2>
-            <p>Découvrez une cuisine raffinée dans un cadre chaleureux et élégant.</p>
+            <p>Bienvenue chez Capybar, un restaurant chaleureux où la gourmandise rencontre la créativité. Ici, chaque plat est une invitation au voyage, mêlant saveurs authentiques et associations audacieuses. Que vous soyez amateur de spécialités italiennes revisitées, de recettes réconfortantes aux accents mexicains ou de douceurs fumées tout droit sorties du four, notre menu promet une expérience culinaire unique. Laissez-vous tenter par nos créations savoureuses et partagez un moment convivial dans une ambiance accueillante et détendue.</p>
         </div>
     </section>
-    
-    <section class="specialties py-5">
-        <div class="container text-center">
-            <h2>Nos spécialités</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/img/capyburito.png" alt="Plat 1" class="img-fluid rounded">
-                    <p>Spécialité 1</p>
+
+    <div class="container text-center">
+        <h2>Nos spécialités : </h2>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/capyburito.png" class="d-block w-100" alt="Plat 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Capyburito</h5>
+                    <p>Un burrito copieux rempli de viande de bœuf tendre et cuite lentement, de haricots noirs et de riz à la coriandre et au citron vert. Enveloppé dans une tortilla de farine chaude.</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="assets/img/capypate.png" alt="Plat 2" class="img-fluid rounded">
-                    <p>Spécialité 2</p>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/capypate.png" class="d-block w-100" alt="Plat 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Capypate</h5>
+                    <p>Un plat raffiné composé de pâtes al dente mélangées à un parmesan crémeux. Garni de persil frais et d'une pincée de fromage.</p>
                 </div>
-                <div class="col-md-4">
-                    <img src="assets/img/capyza.png" alt="Plat 3" class="img-fluid rounded">
-                    <p>Spécialité 3</p>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/capyza.png" class="d-block w-100" alt="Plat 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Capyza</h5>
+                    <p>Notre pizza signature cuite au feu de bois avec une croûte croustillante et dorée, garnie d'une riche sauce tomate, de mozzarella fraîche, d'oignons caramélisés et de porc rôti.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/flambybara.png" class="d-block w-100" alt="Plat 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Flambybara</h5>
+                    <p>Un flan nappé d'une crème caramel onctueuse, délicatement flambée pour révéler des arômes doux et chaleureux. Légèrement dorée sur le dessus, chaque cuillerée offre une texture fondante et un goût sucré parfaitement équilibré.</p>
                 </div>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="about py-5">
+        <div class="container text-center">
+            <h2>Notre devise</h2>
+            <p>Don't worry, eat capy !</p>
+        </div>
     </section>
-    
+
     <footer class="text-center p-3">
         <div class="bgfooter">
             <p>Contactez-nous : 01 23 45 67 89 | Suivez-nous sur les réseaux sociaux</p>
